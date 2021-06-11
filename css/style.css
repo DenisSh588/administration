@@ -95,6 +95,36 @@ html{
 .header__nav__link:hover {
     color: #5f839d;
 }
+.gallery{
+    background: #f0f8ff;
+    padding: 50px 0;
+}
+.gallery__block{
+    display: flex;
+    justify-content: space-between;
+
+}
+.additional__information-titel{
+    max-width: 500px;
+}
+.gallery__titel{
+    padding-top: 10px;
+    padding-bottom: 40px;
+    font-size: 35px;
+}
+.gallery__block__img{
+    text-decoration: none;
+}
+.gallery__img{
+    width: 320px;
+}
+.gallery__text{
+    background-color: #5f839d;
+    padding: 20px;
+    margin-top: -5px;
+    color: #ffffff;
+    font-size: 18px;
+}
 /*Слайдер*/
 .helpful{
     padding-bottom: 60px;
@@ -237,6 +267,7 @@ html{
 }
 .urban__parameters__img{
     width: 300px;
+    height: 200px;
 }
 .urban__parameters__info{
     display: flex;
